@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046253011CA003D200EC4931 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046253001CA003D200EC4931 /* AppDelegate.swift */; };
+		046253031CA003D200EC4931 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046253021CA003D200EC4931 /* ViewController.swift */; };
+		046253061CA003D200EC4931 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046253041CA003D200EC4931 /* Main.storyboard */; };
+		046253081CA003D200EC4931 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046253071CA003D200EC4931 /* Assets.xcassets */; };
+		0462530B1CA003D200EC4931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046253091CA003D200EC4931 /* LaunchScreen.storyboard */; };
+		046253161CA003D200EC4931 /* Pick_Your_FlagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046253151CA003D200EC4931 /* Pick_Your_FlagTests.swift */; };
+		046253211CA003D300EC4931 /* Pick_Your_FlagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046253201CA003D300EC4931 /* Pick_Your_FlagUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046253121CA003D200EC4931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046252F51CA003D200EC4931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046252FC1CA003D200EC4931;
+			remoteInfo = "Pick Your Flag";
+		};
+		0462531D1CA003D300EC4931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046252F51CA003D200EC4931 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046252FC1CA003D200EC4931;
+			remoteInfo = "Pick Your Flag";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046252FD1CA003D200EC4931 /* Pick Your Flag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pick Your Flag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046253001CA003D200EC4931 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		046253021CA003D200EC4931 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046253051CA003D200EC4931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046253071CA003D200EC4931 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0462530A1CA003D200EC4931 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0462530C1CA003D200EC4931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046253111CA003D200EC4931 /* Pick Your FlagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pick Your FlagTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046253151CA003D200EC4931 /* Pick_Your_FlagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pick_Your_FlagTests.swift; sourceTree = "<group>"; };
+		046253171CA003D300EC4931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0462531C1CA003D300EC4931 /* Pick Your FlagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pick Your FlagUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046253201CA003D300EC4931 /* Pick_Your_FlagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pick_Your_FlagUITests.swift; sourceTree = "<group>"; };
+		046253221CA003D300EC4931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046252FA1CA003D200EC4931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0462530E1CA003D200EC4931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046253191CA003D300EC4931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046252F41CA003D200EC4931 = {
+			isa = PBXGroup;
+			children = (
+				046252FF1CA003D200EC4931 /* Pick Your Flag */,
+				046253141CA003D200EC4931 /* Pick Your FlagTests */,
+				0462531F1CA003D300EC4931 /* Pick Your FlagUITests */,
+				046252FE1CA003D200EC4931 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046252FE1CA003D200EC4931 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046252FD1CA003D200EC4931 /* Pick Your Flag.app */,
+				046253111CA003D200EC4931 /* Pick Your FlagTests.xctest */,
+				0462531C1CA003D300EC4931 /* Pick Your FlagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046252FF1CA003D200EC4931 /* Pick Your Flag */ = {
+			isa = PBXGroup;
+			children = (
+				046253001CA003D200EC4931 /* AppDelegate.swift */,
+				046253021CA003D200EC4931 /* ViewController.swift */,
+				046253041CA003D200EC4931 /* Main.storyboard */,
+				046253071CA003D200EC4931 /* Assets.xcassets */,
+				046253091CA003D200EC4931 /* LaunchScreen.storyboard */,
+				0462530C1CA003D200EC4931 /* Info.plist */,
+			);
+			path = "Pick Your Flag";
+			sourceTree = "<group>";
+		};
+		046253141CA003D200EC4931 /* Pick Your FlagTests */ = {
+			isa = PBXGroup;
+			children = (
+				046253151CA003D200EC4931 /* Pick_Your_FlagTests.swift */,
+				046253171CA003D300EC4931 /* Info.plist */,
+			);
+			path = "Pick Your FlagTests";
+			sourceTree = "<group>";
+		};
+		0462531F1CA003D300EC4931 /* Pick Your FlagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046253201CA003D300EC4931 /* Pick_Your_FlagUITests.swift */,
+				046253221CA003D300EC4931 /* Info.plist */,
+			);
+			path = "Pick Your FlagUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046252FC1CA003D200EC4931 /* Pick Your Flag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046253251CA003D300EC4931 /* Build configuration list for PBXNativeTarget "Pick Your Flag" */;
+			buildPhases = (
+				046252F91CA003D200EC4931 /* Sources */,
+				046252FA1CA003D200EC4931 /* Frameworks */,
+				046252FB1CA003D200EC4931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pick Your Flag";
+			productName = "Pick Your Flag";
+			productReference = 046252FD1CA003D200EC4931 /* Pick Your Flag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046253101CA003D200EC4931 /* Pick Your FlagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046253281CA003D300EC4931 /* Build configuration list for PBXNativeTarget "Pick Your FlagTests" */;
+			buildPhases = (
+				0462530D1CA003D200EC4931 /* Sources */,
+				0462530E1CA003D200EC4931 /* Frameworks */,
+				0462530F1CA003D200EC4931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046253131CA003D200EC4931 /* PBXTargetDependency */,
+			);
+			name = "Pick Your FlagTests";
+			productName = "Pick Your FlagTests";
+			productReference = 046253111CA003D200EC4931 /* Pick Your FlagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0462531B1CA003D300EC4931 /* Pick Your FlagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0462532B1CA003D300EC4931 /* Build configuration list for PBXNativeTarget "Pick Your FlagUITests" */;
+			buildPhases = (
+				046253181CA003D300EC4931 /* Sources */,
+				046253191CA003D300EC4931 /* Frameworks */,
+				0462531A1CA003D300EC4931 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0462531E1CA003D300EC4931 /* PBXTargetDependency */,
+			);
+			name = "Pick Your FlagUITests";
+			productName = "Pick Your FlagUITests";
+			productReference = 0462531C1CA003D300EC4931 /* Pick Your FlagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046252F51CA003D200EC4931 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Jack;
+				TargetAttributes = {
+					046252FC1CA003D200EC4931 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					046253101CA003D200EC4931 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 046252FC1CA003D200EC4931;
+					};
+					0462531B1CA003D300EC4931 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 046252FC1CA003D200EC4931;
+					};
+				};
+			};
+			buildConfigurationList = 046252F81CA003D200EC4931 /* Build configuration list for PBXProject "Pick Your Flag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046252F41CA003D200EC4931;
+			productRefGroup = 046252FE1CA003D200EC4931 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046252FC1CA003D200EC4931 /* Pick Your Flag */,
+				046253101CA003D200EC4931 /* Pick Your FlagTests */,
+				0462531B1CA003D300EC4931 /* Pick Your FlagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046252FB1CA003D200EC4931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0462530B1CA003D200EC4931 /* LaunchScreen.storyboard in Resources */,
+				046253081CA003D200EC4931 /* Assets.xcassets in Resources */,
+				046253061CA003D200EC4931 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0462530F1CA003D200EC4931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0462531A1CA003D300EC4931 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046252F91CA003D200EC4931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046253031CA003D200EC4931 /* ViewController.swift in Sources */,
+				046253011CA003D200EC4931 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0462530D1CA003D200EC4931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046253161CA003D200EC4931 /* Pick_Your_FlagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046253181CA003D300EC4931 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046253211CA003D300EC4931 /* Pick_Your_FlagUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046253131CA003D200EC4931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046252FC1CA003D200EC4931 /* Pick Your Flag */;
+			targetProxy = 046253121CA003D200EC4931 /* PBXContainerItemProxy */;
+		};
+		0462531E1CA003D300EC4931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046252FC1CA003D200EC4931 /* Pick Your Flag */;
+			targetProxy = 0462531D1CA003D300EC4931 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046253041CA003D200EC4931 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046253051CA003D200EC4931 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046253091CA003D200EC4931 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0462530A1CA003D200EC4931 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046253231CA003D300EC4931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046253241CA003D300EC4931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046253261CA003D300EC4931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pick Your Flag/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jakir.Pick-Your-Flag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		046253271CA003D300EC4931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pick Your Flag/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jakir.Pick-Your-Flag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		046253291CA003D300EC4931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pick Your FlagTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jakir.Pick-Your-FlagTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pick Your Flag.app/Pick Your Flag";
+			};
+			name = Debug;
+		};
+		0462532A1CA003D300EC4931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pick Your FlagTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jakir.Pick-Your-FlagTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pick Your Flag.app/Pick Your Flag";
+			};
+			name = Release;
+		};
+		0462532C1CA003D300EC4931 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pick Your FlagUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jakir.Pick-Your-FlagUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pick Your Flag";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0462532D1CA003D300EC4931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pick Your FlagUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jakir.Pick-Your-FlagUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pick Your Flag";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046252F81CA003D200EC4931 /* Build configuration list for PBXProject "Pick Your Flag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046253231CA003D300EC4931 /* Debug */,
+				046253241CA003D300EC4931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046253251CA003D300EC4931 /* Build configuration list for PBXNativeTarget "Pick Your Flag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046253261CA003D300EC4931 /* Debug */,
+				046253271CA003D300EC4931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		046253281CA003D300EC4931 /* Build configuration list for PBXNativeTarget "Pick Your FlagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046253291CA003D300EC4931 /* Debug */,
+				0462532A1CA003D300EC4931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0462532B1CA003D300EC4931 /* Build configuration list for PBXNativeTarget "Pick Your FlagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0462532C1CA003D300EC4931 /* Debug */,
+				0462532D1CA003D300EC4931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046252F51CA003D200EC4931 /* Project object */;
+}

@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04128C811CB849D4003296EE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04128C801CB849D4003296EE /* DetailViewController.swift */; };
+		04C6953F1CB26983002EB667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6953E1CB26983002EB667 /* AppDelegate.swift */; };
+		04C695441CB26984002EB667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C695421CB26983002EB667 /* Main.storyboard */; };
+		04C695461CB26984002EB667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C695451CB26984002EB667 /* Assets.xcassets */; };
+		04C695491CB26984002EB667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C695471CB26984002EB667 /* LaunchScreen.storyboard */; };
+		04C695541CB26984002EB667 /* Birds_in_BangladeshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C695531CB26984002EB667 /* Birds_in_BangladeshTests.swift */; };
+		04C6955F1CB26984002EB667 /* Birds_in_BangladeshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6955E1CB26984002EB667 /* Birds_in_BangladeshUITests.swift */; };
+		04C6956D1CB26A0E002EB667 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6956C1CB26A0E002EB667 /* TableViewController.swift */; };
+		04C6956F1CB2796E002EB667 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C6956E1CB2796E002EB667 /* MyCell.swift */; };
+		04C695711CB27AE1002EB667 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C695701CB27AE1002EB667 /* Bird.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04C695501CB26984002EB667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C695331CB26983002EB667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C6953A1CB26983002EB667;
+			remoteInfo = "Birds in Bangladesh";
+		};
+		04C6955B1CB26984002EB667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C695331CB26983002EB667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C6953A1CB26983002EB667;
+			remoteInfo = "Birds in Bangladesh";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04128C801CB849D4003296EE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
+		04C6953B1CB26983002EB667 /* Birds in Bangladesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Birds in Bangladesh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C6953E1CB26983002EB667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04C695431CB26984002EB667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C695451CB26984002EB667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C695481CB26984002EB667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04C6954A1CB26984002EB667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C6954F1CB26984002EB667 /* Birds in BangladeshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Birds in BangladeshTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C695531CB26984002EB667 /* Birds_in_BangladeshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birds_in_BangladeshTests.swift; sourceTree = "<group>"; };
+		04C695551CB26984002EB667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C6955A1CB26984002EB667 /* Birds in BangladeshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Birds in BangladeshUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C6955E1CB26984002EB667 /* Birds_in_BangladeshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birds_in_BangladeshUITests.swift; sourceTree = "<group>"; };
+		04C695601CB26984002EB667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C6956C1CB26A0E002EB667 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		04C6956E1CB2796E002EB667 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		04C695701CB27AE1002EB667 /* Bird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C695381CB26983002EB667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C6954C1CB26984002EB667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C695571CB26984002EB667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C695321CB26983002EB667 = {
+			isa = PBXGroup;
+			children = (
+				04C6953D1CB26983002EB667 /* Birds in Bangladesh */,
+				04C695521CB26984002EB667 /* Birds in BangladeshTests */,
+				04C6955D1CB26984002EB667 /* Birds in BangladeshUITests */,
+				04C6953C1CB26983002EB667 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04C6953C1CB26983002EB667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C6953B1CB26983002EB667 /* Birds in Bangladesh.app */,
+				04C6954F1CB26984002EB667 /* Birds in BangladeshTests.xctest */,
+				04C6955A1CB26984002EB667 /* Birds in BangladeshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C6953D1CB26983002EB667 /* Birds in Bangladesh */ = {
+			isa = PBXGroup;
+			children = (
+				04128C801CB849D4003296EE /* DetailViewController.swift */,
+				04C6953E1CB26983002EB667 /* AppDelegate.swift */,
+				04C695421CB26983002EB667 /* Main.storyboard */,
+				04C6956E1CB2796E002EB667 /* MyCell.swift */,
+				04C695701CB27AE1002EB667 /* Bird.swift */,
+				04C6956C1CB26A0E002EB667 /* TableViewController.swift */,
+				04C695451CB26984002EB667 /* Assets.xcassets */,
+				04C695471CB26984002EB667 /* LaunchScreen.storyboard */,
+				04C6954A1CB26984002EB667 /* Info.plist */,
+			);
+			path = "Birds in Bangladesh";
+			sourceTree = "<group>";
+		};
+		04C695521CB26984002EB667 /* Birds in BangladeshTests */ = {
+			isa = PBXGroup;
+			children = (
+				04C695531CB26984002EB667 /* Birds_in_BangladeshTests.swift */,
+				04C695551CB26984002EB667 /* Info.plist */,
+			);
+			path = "Birds in BangladeshTests";
+			sourceTree = "<group>";
+		};
+		04C6955D1CB26984002EB667 /* Birds in BangladeshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04C6955E1CB26984002EB667 /* Birds_in_BangladeshUITests.swift */,
+				04C695601CB26984002EB667 /* Info.plist */,
+			);
+			path = "Birds in BangladeshUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C6953A1CB26983002EB667 /* Birds in Bangladesh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C695631CB26984002EB667 /* Build configuration list for PBXNativeTarget "Birds in Bangladesh" */;
+			buildPhases = (
+				04C695371CB26983002EB667 /* Sources */,
+				04C695381CB26983002EB667 /* Frameworks */,
+				04C695391CB26983002EB667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Birds in Bangladesh";
+			productName = "Birds in Bangladesh";
+			productReference = 04C6953B1CB26983002EB667 /* Birds in Bangladesh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04C6954E1CB26984002EB667 /* Birds in BangladeshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C695661CB26984002EB667 /* Build configuration list for PBXNativeTarget "Birds in BangladeshTests" */;
+			buildPhases = (
+				04C6954B1CB26984002EB667 /* Sources */,
+				04C6954C1CB26984002EB667 /* Frameworks */,
+				04C6954D1CB26984002EB667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C695511CB26984002EB667 /* PBXTargetDependency */,
+			);
+			name = "Birds in BangladeshTests";
+			productName = "Birds in BangladeshTests";
+			productReference = 04C6954F1CB26984002EB667 /* Birds in BangladeshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04C695591CB26984002EB667 /* Birds in BangladeshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C695691CB26984002EB667 /* Build configuration list for PBXNativeTarget "Birds in BangladeshUITests" */;
+			buildPhases = (
+				04C695561CB26984002EB667 /* Sources */,
+				04C695571CB26984002EB667 /* Frameworks */,
+				04C695581CB26984002EB667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C6955C1CB26984002EB667 /* PBXTargetDependency */,
+			);
+			name = "Birds in BangladeshUITests";
+			productName = "Birds in BangladeshUITests";
+			productReference = 04C6955A1CB26984002EB667 /* Birds in BangladeshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C695331CB26983002EB667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jack;
+				TargetAttributes = {
+					04C6953A1CB26983002EB667 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					04C6954E1CB26984002EB667 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 04C6953A1CB26983002EB667;
+					};
+					04C695591CB26984002EB667 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 04C6953A1CB26983002EB667;
+					};
+				};
+			};
+			buildConfigurationList = 04C695361CB26983002EB667 /* Build configuration list for PBXProject "Birds in Bangladesh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C695321CB26983002EB667;
+			productRefGroup = 04C6953C1CB26983002EB667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C6953A1CB26983002EB667 /* Birds in Bangladesh */,
+				04C6954E1CB26984002EB667 /* Birds in BangladeshTests */,
+				04C695591CB26984002EB667 /* Birds in BangladeshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C695391CB26983002EB667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C695491CB26984002EB667 /* LaunchScreen.storyboard in Resources */,
+				04C695461CB26984002EB667 /* Assets.xcassets in Resources */,
+				04C695441CB26984002EB667 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C6954D1CB26984002EB667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C695581CB26984002EB667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C695371CB26983002EB667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C6956F1CB2796E002EB667 /* MyCell.swift in Sources */,
+				04C6953F1CB26983002EB667 /* AppDelegate.swift in Sources */,
+				04128C811CB849D4003296EE /* DetailViewController.swift in Sources */,
+				04C695711CB27AE1002EB667 /* Bird.swift in Sources */,
+				04C6956D1CB26A0E002EB667 /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C6954B1CB26984002EB667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C695541CB26984002EB667 /* Birds_in_BangladeshTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C695561CB26984002EB667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C6955F1CB26984002EB667 /* Birds_in_BangladeshUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C695511CB26984002EB667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C6953A1CB26983002EB667 /* Birds in Bangladesh */;
+			targetProxy = 04C695501CB26984002EB667 /* PBXContainerItemProxy */;
+		};
+		04C6955C1CB26984002EB667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C6953A1CB26983002EB667 /* Birds in Bangladesh */;
+			targetProxy = 04C6955B1CB26984002EB667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04C695421CB26983002EB667 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C695431CB26984002EB667 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04C695471CB26984002EB667 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C695481CB26984002EB667 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C695611CB26984002EB667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04C695621CB26984002EB667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C695641CB26984002EB667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Birds in Bangladesh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jakir.Birds-in-Bangladesh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04C695651CB26984002EB667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Birds in Bangladesh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jakir.Birds-in-Bangladesh";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04C695671CB26984002EB667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Birds in BangladeshTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jakir.Birds-in-BangladeshTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birds in Bangladesh.app/Birds in Bangladesh";
+			};
+			name = Debug;
+		};
+		04C695681CB26984002EB667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Birds in BangladeshTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jakir.Birds-in-BangladeshTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Birds in Bangladesh.app/Birds in Bangladesh";
+			};
+			name = Release;
+		};
+		04C6956A1CB26984002EB667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Birds in BangladeshUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jakir.Birds-in-BangladeshUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Birds in Bangladesh";
+			};
+			name = Debug;
+		};
+		04C6956B1CB26984002EB667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Birds in BangladeshUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.jakir.Birds-in-BangladeshUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Birds in Bangladesh";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C695361CB26983002EB667 /* Build configuration list for PBXProject "Birds in Bangladesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C695611CB26984002EB667 /* Debug */,
+				04C695621CB26984002EB667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C695631CB26984002EB667 /* Build configuration list for PBXNativeTarget "Birds in Bangladesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C695641CB26984002EB667 /* Debug */,
+				04C695651CB26984002EB667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C695661CB26984002EB667 /* Build configuration list for PBXNativeTarget "Birds in BangladeshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C695671CB26984002EB667 /* Debug */,
+				04C695681CB26984002EB667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C695691CB26984002EB667 /* Build configuration list for PBXNativeTarget "Birds in BangladeshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C6956A1CB26984002EB667 /* Debug */,
+				04C6956B1CB26984002EB667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C695331CB26983002EB667 /* Project object */;
+}
